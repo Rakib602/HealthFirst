@@ -13,8 +13,6 @@ const{name,Specialist,img,fees} = props.doctor;
           <Card.Title>Name : {name}</Card.Title>
           <Card.Text>Specialist:{Specialist}</Card.Text>
           <Card.Text>Fees: {fees} $</Card.Text>
-          {/* dynamic route */}
-
          
           <button className="btn btn-primary"> Book {name} </button>
         </Card.Body>

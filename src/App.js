@@ -2,8 +2,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './Components/Home';
 import Header from './Components/Common/Header';
@@ -16,11 +15,14 @@ import Appoinment from './Components/Appoinment/Appoinment';
 import NotFound from './Components/NotFound';
 import Booking from './Components/Booking/Booking';
 import ContactUs from './Components/ContactUs';
-import Pharmacy from './Components/Pharmacy';
+
+import AuthProvider from './Contexts/AuthProvider';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
+        <AuthProvider>
         <Router>
           <Header></Header>
           <Switch>
@@ -30,39 +32,34 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/tests">
+            <PrivateRoute path="/tests">
               <Tests></Tests>
-            </Route>
+            </PrivateRoute>
            <Route path='/services'>
           <Services></Services>
            </Route>
-           <Route path="/doctors">
+           <PrivateRoute path="/doctors">
           <Doctors></Doctors>
-           </Route>
-           <Route path="/appoinment">
+           </PrivateRoute>
+           <PrivateRoute path="/appoinment">
           <Appoinment></Appoinment>
+           </PrivateRoute>
+           <Route path="/contactus">
+             <ContactUs></ContactUs>
            </Route>
            <Route path="/login">
             <Login></Login>
            </Route>
-           <Route path="/booking/:serviceId">
+           <PrivateRoute path="/booking/:serviceId">
              <Booking></Booking>
-           </Route>
-           <Route path="/ambulance">
-             <ContactUs></ContactUs>
-           </Route>
-           <Route path="/icu">
-             <ContactUs></ContactUs>
-           </Route>
-           <Route path="/pharmacy">
-             <Pharmacy></Pharmacy>
-           </Route>
+           </PrivateRoute>
            <Route path="*">
               <NotFound></NotFound>             
            </Route>
           </Switch>
           <Footer></Footer>
         </Router>
+        </AuthProvider>
     </div>
   );
 }
