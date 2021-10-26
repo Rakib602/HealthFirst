@@ -1,0 +1,39 @@
+[
+    {   
+        "id": 1,
+        "name": " ECG ",
+        "img": "https://i.ibb.co/pjbHxJx/test1.png",
+        "fees": 1500 
+    },
+    {
+        "id": 2,
+        "name": " Endoscopy ",
+        "img": " https://i.ibb.co/fSYc1C2/test2.png",
+        "fees": 1500
+    },
+    {   
+        "id": 3,
+        "name": " CT Scan ",
+        "img": " https://i.ibb.co/RDjQGMq/test3.png",
+        "fees": 1000
+    },
+    {
+        "id": 4,
+        "name": " X-ray ",
+        "img": "https://i.ibb.co/3mZXLCW/test4.png",
+        "fees": 1000
+    },
+    {   
+        "id": 5,
+        "name": " Ultrasonography ",
+        "img": " https://i.ibb.co/3Ft16dZ/test5.png ",
+        "fees": 1500
+    },
+    {
+        "id": 6,
+        "name": " Covid 19 ",
+        "img": " https://i.ibb.co/PCqWFSb/test6.png",
+        "fees": 1000
+    }
+
+]

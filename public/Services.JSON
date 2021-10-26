@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": " Expert Doctor's ",
+        "detail": " We have some Specialist doctor's in our hospital. They all are experienced. " ,
+        "img": " https://i.ibb.co/syRkR39/Services1.png "
+    },
+    {
+        "id": 2,
+        "name": " Emergency Ambulance  ",
+        "detail": " We have 5 high facility ambulance in our hospital. It's gives you 24hour services. " ,
+        "img": " https://i.ibb.co/09Hq5HG/Services2.png"
+    },
+    {   
+        "id": 3,
+        "name": " Diagnostic Center ",
+        "detail": " We have our own diagnostic center with high equipment in our hospital. " ,
+        "img": " https://i.ibb.co/jM1L933/Services3.png "
+    },
+    {
+        "id": 4,
+        "name": " Pharmacy ",
+        "detail": " We have our own pharmacy in our hospital. It's provide you low cost medicine. " ,
+        "img": " https://i.ibb.co/Mgk3LBS/Services4.png "
+    },
+    {
+       "id": 5,
+        "name": " ICU  ",
+        "detail": " We have 5 ICU with in our hospital. It's provide you low cost Services. " ,
+        "img": "https://i.ibb.co/XCJLrHx/Services5.png"
+    },
+    {
+       "id": 6,
+        "name": "Emergency Doctor ",
+        "detail": " We have at least 4 doctor for 24 hour who give you in Emergency time. " ,
+        "img": " https://i.ibb.co/2NL90DR/Services6.png"
+    }
+]

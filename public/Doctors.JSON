@@ -1,0 +1,45 @@
+[
+    {   
+        "id": 1,
+        "name": " Dr. Wilson Parker ",
+        "Specialist": " GYNECOLOGIST ",
+        "img": " https://i.ibb.co/5YP06fF/doctor1.png ",
+        "fees": 1500
+    },
+    {
+        "id": 2,
+        "name": " Dr. Loyed Rachel ",
+        "Specialist": " NEUROLOGIST ",
+        "img": " https://i.ibb.co/cb3DszJ/doctor2.png",
+        "fees": 1500
+    },
+    {   
+        "id": 3,
+        "name": " Dr. Alicia Henderson ",
+        "Specialist": " DENTIST",
+        "img": " https://i.ibb.co/XJLx7kK/doctor3.png ",
+        "fees": 1000
+    },
+    {
+        "id": 4,
+        "name": " Dr. Parker Kelvin  ",
+        "Specialist": " PSYCHIATRIST",
+        "img": "https://i.ibb.co/pnjctpD/doctor4.png",
+        "fees": 1000
+    },
+    {   
+        "id": 5,
+        "name": " Dr. Wilson Parker ",
+        "Specialist": " CARDIOLOGISTS",
+        "img": " https://i.ibb.co/JskGk6p/doctor5.png ",
+        "fees": 1500
+    },
+    {
+        "id": 6,
+        "name": " Dr. Ian Smith ",
+        "Specialist": " RHEUMATOLOGISTS",
+        "img": " https://i.ibb.co/Dg0TGTG/doctor6.png",
+        "fees": 1000
+    }
+
+]
