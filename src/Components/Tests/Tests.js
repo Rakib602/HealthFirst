@@ -5,7 +5,7 @@ import Test from './Test';
 const Tests = () => {
     const [test,setTest] = useState([]);
     useEffect(()=>{
-        fetch('./Tests.JSON')
+        fetch('./Tests.json')
         .then(res=>res.json())
         .then(data=>setTest(data))
 
