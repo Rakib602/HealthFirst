@@ -11,7 +11,7 @@ const Booking = () => {
 
 
     useEffect(()=> {
-        fetch('/Services.JSON')
+        fetch('/Services.json')
         .then(res=> res.json())
         .then(data=> setSingleServices(data))
     },[])

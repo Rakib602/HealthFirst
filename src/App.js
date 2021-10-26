@@ -18,6 +18,7 @@ import ContactUs from './Components/ContactUs';
 
 import AuthProvider from './Contexts/AuthProvider';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import DoneBooking from './DoneBooking';
 
 function App() {
   return (
@@ -50,8 +51,12 @@ function App() {
            <Route path="/login">
             <Login></Login>
            </Route>
+           <Route path="/Bookingdone">
+               <DoneBooking></DoneBooking>
+             </Route>
            <PrivateRoute path="/booking/:serviceId">
              <Booking></Booking>
+             
            </PrivateRoute>
            <Route path="*">
               <NotFound></NotFound>             

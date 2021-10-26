@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Test = (props) => {
     const{name,img,fees} = props.tests;
@@ -11,10 +12,9 @@ const Test = (props) => {
         <Card.Body>
           <Card.Title>Test Name : {name}</Card.Title>
           <Card.Text>Test Fees: {fees} $</Card.Text>
-          {/* dynamic route */}
-
+          
          
-          <button className="btn btn-primary"> Book {name} Test </button>
+          <Link to="/Bookingdone"> <button className="btn btn-primary"> Book {name} Test </button></Link>
         </Card.Body>
       </Card>
     </Col>

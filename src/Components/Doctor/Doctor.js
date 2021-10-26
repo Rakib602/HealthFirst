@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Doctor = (props) => {
 const{name,Specialist,img,fees} = props.doctor;
@@ -14,7 +15,7 @@ const{name,Specialist,img,fees} = props.doctor;
           <Card.Text>Specialist:{Specialist}</Card.Text>
           <Card.Text>Fees: {fees} $</Card.Text>
          
-          <button className="btn btn-primary"> Book {name} </button>
+          <Link to="/Bookingdone"><button className="btn btn-primary"> Book {name} </button></Link>
         </Card.Body>
       </Card>
     </Col>
